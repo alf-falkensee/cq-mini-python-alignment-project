@@ -153,9 +153,6 @@ class ShowAlignment:
         processing of the input is interrupted by a ValueError exception.
     
         """
-        print(self)
-        print(zeile1)
-        print(zeile2)
 
         if (self.inputCheckpoint(zeile1, zeile2)):
             # get the quality
