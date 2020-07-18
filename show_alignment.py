@@ -236,9 +236,9 @@ class ShowAlignment:
             if not self.aligntIsDna:
                 _input_type = "protein"
             print("input is now further processed as: " + _input_type)
-            print("============================================================ ")
+            print("============================================================")
         else:
-            print("============================================================ ")
+            print("============================================================")
             if (
                 validityInObereZeile["recognizedAlphabet"] in
                 [self.INVALID_DNA, self.INVALID_PROTEIN]
@@ -269,7 +269,7 @@ class ShowAlignment:
                         validityInUntereZeile["residue"]
                     )
                 )
-            print("============================================================ ")
+            print("============================================================")
             raise ValueError("Input outside of chosen alphabet.")
         return(rv)
 
@@ -281,10 +281,10 @@ class ShowAlignment:
         enforce a proper console configuration
     
         """
-        print("============================================================ ")
-        print("make sure your terminal is set to use fixed/monospaced fonts ")
+        print("============================================================")
+        print("make sure your terminal is set to use fixed/monospaced fonts")
         print("and displays a minimum of 60 columns")
-        print("============================================================ ")
+        print("============================================================")
     
 
 if __name__ == "__main__":
